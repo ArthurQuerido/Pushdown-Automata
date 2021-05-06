@@ -40,17 +40,6 @@ def PDA(transitions, state, acceptance_states, string, stack):
 
 transitions = []
 
-#Receiving number of states from user and creating state keys
-n = input()
-
-#Receiving alphabet symbols
-k, alphabet = input().split(' ', 1)
-alphabet = alphabet.split()
-
-#Receiving stack symbols
-s, stack_symbols = input().split(' ', 1)
-stack_symbols = stack_symbols.split()
-
 #Receiving acceptance states from user
 k, acceptance_states = input().split(' ', 1)
 acceptance_states = set(acceptance_states.split())
